@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+span {
+    color: #f77e06;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Google Sans", sans-serif;
+    font-size: 18px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+input,
+form,
+span,
+small,
+big,
+div,
+ol,
+ul,
+li,
+a,
+section,
+i,
+textarea,
+nav,
+footer,
+header,
+.navbar,
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header start */
+.up_header_sec {
+    background-color: #f77e06;
+    padding: 7px 0px;
+}
+
+.upper_header {
+    ul {
+        li {
+            a {
+                color: #293c6d;
+                padding: 0px 10px;
+                font-weight: 600;
+                transition: all linear 0.3s;
+            }
+        }
+
+        li:hover {
+            a {
+                color: #eee;
+            }
+        }
+    }
+}
+
+
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar {
+    padding: 25px 0px;
+}
+
+.navbar-nav {
+    .nav-item {
+        .nav-link {
+            padding: 0px 10px;
+            font-weight: 600;
+            font-size: 15px;
+            color: #293c6d;
+            transition: all ease 0.4s;
+        }
+    }
+
+    .nav-item:hover {
+        .nav-link {
+            color: #f77e06;
+        }
+    }
+}
+
+.dropdown-menu {
+    border-radius: 25px;
+
+    .dropdown-item {
+        color: #293c6d;
+        transition: all ease 0.4s;
+    }
+
+    .dropdown-item:hover {
+        color: #f77e06;
+    }
+}
+
+/* Header end */
+
+/* Banner start */
+.effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Black overlay with 50% opacity */
+    background: rgba(0, 0, 0, 0.5);
+
+    z-index: 1;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.banner_text {
+    position: absolute;
+    top: 150px;
+    left: 140px;
+    z-index: 2;
+
+    h4 {
+        color: #eee;
+        font-size: 55px;
+
+        span {
+            color: #f77e06;
+        }
+    }
+
+    p {
+        color: #eee;
+        margin-top: 30px;
+    }
+}
+
+.com_btn {
+    margin-top: 50px;
+
+    a {
+        padding: 15px 25px;
+        border: 2px solid #eee;
+        border-radius: 5px;
+        background-color: #eeeeee55;
+        backdrop-filter: blur(10px);
+        color: #eee;
+        font-weight: 600;
+        transition: all linear 0.4s;
+    }
+
+    a:hover {
+        border-color: #293c6d;
+        background-color: #293c6d;
+        color: #eee;
+    }
+}
+
+.com_btn_pro {
+    margin-top: 50px;
+
+    a {
+        padding: 15px 25px;
+        border-radius: 5px;
+        background-color: #f77e06;
+        backdrop-filter: blur(10px);
+        color: #eee;
+        font-weight: 600;
+        transition: all linear 0.4s;
+    }
+
+    a:hover {
+        background-color: #293c6d;
+    }
+}
+
+.com_btn_acc {
+    margin-top: 50px;
+
+    a {
+        padding: 15px 25px;
+        border-radius: 5px;
+        background-color: #f77e06;
+        backdrop-filter: blur(10px);
+        color: #eee;
+        font-weight: 600;
+        transition: all linear 0.4s;
+    }
+
+    a:hover {
+        background-color: #293c6d;
+    }
+}
+
+/* Banner end */
+
+
+/* Sub_sec start */
+.sub_sec {
+    padding: 70px 0px;
+}
+
+.sub_header {
+    h5 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+.sub_btn {
+    background-color: #f77e06;
+    font-weight: 600;
+    color: #eee;
+    transition: all linear 0.4s;
+    padding: 5px 20px;
+}
+
+.sub_btn:hover {
+    background-color: #f77e06;
+    color: #293c6d;
+}
+
+/* Sub_sec end */
+
+
+/* Global network section start */
+.main_card {
+    border-radius: 10px;
+    padding: 25px;
+    height: 300px;
+    border: 2px solid #293c6d8d;
+    transition: all ease 0.4s;
+
+    i {
+        font-size: 70px;
+        color: #293c6d;
+    }
+
+    h6 {
+        color: #293c6d;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 15px 0px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #293c6d;
+    }
+}
+
+.main_card:hover {
+    box-shadow: 0px 0px 15px #293c6d;
+
+}
+
+.gns_sec {
+    padding: 60px 0px;
+}
+
+/* Global network section end */
+
+/* Pro sec start */
+
+.pro_text {
+    vertical-align: middle;
+
+    h2 {
+        font-size: 50px;
+        color: #293c6d;
+
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+/* Pro sec end */
+
+
+/* Acc sec start */
+.gns_sec_acc {
+    padding: 60px 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 25%, rgba(247, 126, 6, 0.42) 75%);
+
+}
+
+.pro_pic_acc {
+    img {
+        border-radius: 25px;
+    }
+}
+
+/* Acc sec end */
+
+/* Function sec start */
+.gns_sec_fun {
+    padding: 60px 0px;
+    background: rgba(247, 126, 6, 0.42) 75%;
+
+}
+
+.pro_pic_fun {
+    img {
+        border-radius: 25px;
+    }
+}
+
+/* Function sec end */
+
+
+
+/* membership start */
+.gns_sec_mem {
+    padding: 60px 0px;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 1) 25%, rgba(247, 126, 6, 0.42) 75%);
+}
+
+/* membership end */
+
+
+/* review start */
+.review_sec {
+    padding: 70px 0px;
+}
+
+.rev_text {
+    h3 {
+        font-size: 45px;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.review_box {
+    padding: 25px;
+    border: 1px solid #f77e06;
+    border-radius: 20px;
+}
+
+
+
+.main_rev {
+    h3 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+}
+
+.stars {
+    ul {
+        li {
+            i {
+                padding: 0px 2px;
+                color: #f77e06;
+            }
+        }
+    }
+}
+
+/* review end */
+
+
+/* President sec start */
+.president_sec {
+    padding: 80px 0px;
+    background: url(../images/president_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.president_text {
+    h3 {
+        color: #f77e06;
+        font-weight: 600;
+        font-size: 34px;
+    }
+
+    p {
+        color: #eee;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.president_img {
+    img {
+        border-radius: 20px;
+    }
+}
+
+/* President sec end */
+
+
+/* News vlog start */
+.nv_sec {
+    padding: 90px 0px;
+    background: linear-gradient(179deg, rgba(255, 255, 255, 1) 25%, rgba(247, 126, 6, 0.42) 75%);
+
+}
+
+.nv_heading {
+    h2 {
+        font-size: 45px;
+        color: #f77e06;
+        font-weight: 600;
+
+        span {
+            color: #293c6d;
+        }
+    }
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card {
+    height: 560px;
+
+    img {
+        height: 280px;
+    }
+}
+
+.nv_btn {
+    padding: 10px 20px;
+    background: #f77e06;
+    color: #eee;
+    font-weight: 600;
+    transition: all linear 0.3s;
+
+}
+
+.nv_btn:hover {
+    background: #293c6d;
+    color: #eee;
+}
+
+.join_sec {
+    padding: 80px 0px;
+    background: linear-gradient(180deg, rgba(247, 126, 6, 0.42) 0%, rgba(247, 126, 6, 1) 100%);
+}
+
+.join_text {
+    h2 {
+        color: #eee;
+    }
+}
+
+/* News vlog end */
+
+/* footer_sec start */
+.footer_sec {
+    padding: 20px 0px;
+    background: #f77e06;
+}
+
+.footer_text {
+    p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #eee;
+    }
+}
+
+.footer_nav {
+    ul {
+        li {
+            margin-left: 8px;
+
+            a {
+                font-size: 14px;
+                color: #eee;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
+
+/* footer_sec end */
+
+
+
+
+
+/* Home End */
+
+
+
+
+
+
+/* cap_pr_sec start */
+
+/* banner start */
+.cap_banner_sec {
+    background-image: url(../images/members.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    position: relative;
+    padding: 200px 0px;
+}
+
+.cap_head {
+    h1 {
+        padding: 150px 0px;
+        background: transparent;
+        color: #eee;
+        font-weight: 600;
+
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Black overlay with 50% opacity */
+    background: #f77f06c0;
+
+    z-index: 1;
+}
+/* Banner end */
+
+
+/* img text left start */
+.text_left{
+    h2{
+        color: #293c6d;
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+        color: #293c6d;
+        span{
+            a{
+                color: #f77e06;
+            }
+        }
+    }
+}
+.text_left2{
+    h2{
+        color: #293c6d;
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+        color: #293c6d;
+        padding-bottom: 8px;
+        span{
+            a{
+                color: #f77e06;
+            }
+        }
+    }
+}
+.img_right{
+    img{
+        border-radius: 25px;
+    }
+}
+
+.img_text_sec{
+    padding: 70px;
+
+}
+.img_text_sec2{
+    padding: 70px;
+    border-top: 3px solid #293c6d51;
+    border-bottom: 3px solid #293c6d51;
+}
+.img_text_sec3{
+    padding: 70px 70px 100px 70px;
+    border-top: 3px solid #293c6d51;
+        background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(247, 126, 6, 0.42) 100%);
+
+}
+/* img text left end */
+.bt_text_sec{
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(247, 126, 6, 0.42) 100%);
+}
+
+.bt_text{
+    padding: 50px 0px;
+
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        text-align: justify;
+        color: #293c6d;
+    }
+}
+
+
+
+/* cap_pr_sec end */
+
+
+
+
+/* Certified Professionals start */
+.body_sec{
+    padding: 60px 0px;
+}
+.rev_text2 {
+    h3 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+
+    p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+
+.btn_modal{
+    padding: 10px 25px;
+    background-color: #f77e06;
+    color: #eee;
+    transition: all ease 0.4s;
+}
+.btn_modal:hover{
+    background-color: #293c6d;
+    color: #eee;
+}
+
+
+
+.extra_head{
+    h4{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+
+/* Certified Professionals end */
